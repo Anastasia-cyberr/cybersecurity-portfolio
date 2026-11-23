@@ -1,4 +1,3 @@
-# cybersecurity-portfolio
 # Cybersecurity Portfolio
 
 Hi! I'm a cybersecurity student focused on web application security and penetration testing.
