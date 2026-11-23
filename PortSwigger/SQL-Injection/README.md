@@ -1,43 +1,46 @@
 # SQL Injection
 
-**Platform:** PortSwigger Web Security Academy  
-**Difficulty:** Apprentice / Practitioner  
-**Status:** 7/7 labs completed
+**Platform:** PortSwigger Web Security Academy
+
+**Difficulty:** Apprentice / Practitioner
+
+**Completed labs:** 7
 
 ## Overview
+SQL Injection is a vulnerability that occurs when an application handles user input incorrectly while constructing SQL queries.
 
-This section documents my practical work with SQL Injection vulnerabilities.
+An attacker can manipulate SQL queries through user-controlled input, potentially accessing sensitive information, bypassing authentication, or modifying and deleting database records.
 
-The labs covered retrieving hidden database data, authentication bypass, and UNION-based SQL injection techniques.
+User input may be supplied through URL parameters, cookies, or other parts of an HTTP request.
 
-I also practiced Blind SQL Injection using conditional responses.
+## Practical Experience
 
-## Completed Labs
+### 1. Retrieving Hidden Data
+- Objective:
+- Vulnerability:
+- Testing approach:
+- Result:
 
-### Apprentice
+### 2. Authentication Bypass
+- Objective:
+- Vulnerability:
+- Testing approach:
+- Result:
 
-1. [SQL injection vulnerability in WHERE clause allowing retrieval of hidden data](https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data)
-2. [SQL injection vulnerability allowing login bypass](https://portswigger.net/web-security/sql-injection/lab-login-bypass)
+### 3. UNION-based SQL Injection
+- Determining the number of columns
+- Finding a column containing text
+- Retrieving data from other tables
+- Retrieving multiple values in one column
 
-### Practitioner
+### 4. Blind SQL Injection
+- Technique: Conditional responses
+- My understanding:
 
-3. [Determining the number of columns returned by the query](https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns)
-4. [Finding a column containing text](https://portswigger.net/web-security/sql-injection/union-attacks/lab-find-column-containing-text)
-5. [Retrieving data from other tables](https://portswigger.net/web-security/sql-injection/union-attacks/lab-retrieve-data-from-other-tables)
-6. [Retrieving multiple values in a single column](https://portswigger.net/web-security/sql-injection/union-attacks/lab-retrieve-multiple-values-in-single-column)
-7. [Blind SQL injection with conditional responses](https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses)
+## Key Takeaways
 
-## Key Topics Practiced
+[What did I learn from these labs?]
 
-- SQL injection in WHERE clauses
-- Authentication bypass
-- UNION-based SQL injection
-- Identifying the number of columns
-- Identifying compatible text columns
-- Retrieving data from other database tables
-- Combining multiple values in a single column
-- Boolean-based Blind SQL Injection
+## Mitigation
 
-## Learning Outcomes
-
-Through these labs, I practiced identifying SQL injection vulnerabilities, testing application behavior, and understanding how manipulated SQL queries can affect database interactions.
+[How can developers prevent SQL Injection?]
