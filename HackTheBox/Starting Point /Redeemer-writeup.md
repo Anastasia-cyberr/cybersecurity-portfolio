@@ -1,9 +1,9 @@
 # HTB - Redeemer
 
-Platform: HackTheBox - StartingPoint
-OS: KaliLinux
-Difficulty: Very Easy
-Date: 2026
+- Platform: HackTheBox - StartingPoint
+- OS: Kali Linux
+- Difficulty: Very Easy
+- Date: 25.11.2026
 
 ## Recon
 
@@ -26,6 +26,8 @@ Used the `INFO` command to gather server information and identified Redis versio
 The Keyspace section showed 4 keys in the database.
 
 ## Exploitation
+
+Redis was accessible without authentication.
 
 Used `KEYS *` to enumerate available keys and discovered a key named `flag`.
 
